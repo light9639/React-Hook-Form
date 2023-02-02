@@ -30,7 +30,7 @@ yarn add react-hook-form, styled-components
 ## ✒️ App.tsx, Style.ts 수정 및 작성
 ### :zap: App.tsx
 - react-hook-form을 import하고, Style.ts에서 styled-components 작성 자료 가져오기
-```bash
+```js
 import reactLogo from './assets/react.svg'
 import { useForm } from "react-hook-form";
 import './App.css'
@@ -86,7 +86,7 @@ export default App
 ```
 ### :zap: Style.ts
 - styled-components import한 뒤 export 하여 App.tsx에서 사용
-```bash
+```js
 import styled from 'styled-components';
 
 export const Form = styled.form`
@@ -117,5 +117,6 @@ export const Submit = styled.input`
 ```
 
 ## :test_tube: input 버튼 클릭 후 콘솔 확인
+- input에 값을 입력하면 콘솔을 통해 값을 확인할 수 있다.
 <img src="https://user-images.githubusercontent.com/95972251/212851053-57e3fd19-af0b-4191-a336-c1c014c83017.gif" alt="Img" width="450px" />
 
