@@ -1,9 +1,9 @@
-# :zap: react-hook-form 연습 페이지입니다.
-:octocat: https://light9639.github.io/react-hook-form/
+# :zap: React-Hook-Form 연습 페이지입니다.
+:octocat: https://light9639.github.io/React-Hook-Form/
 
 ![127 0 0 1_5173_](https://user-images.githubusercontent.com/95972251/233539308-098afe6b-346f-4d28-8e1b-57eecbc51acf.png)
 
-:sparkles: 🛠️ react-hook-form 연습 페이지입니다. :sparkles:
+:sparkles: 🛠️ React-Hook-Form 연습 페이지입니다. :sparkles:
 ## :tada: React 생성
 - React 생성
 ```bash
