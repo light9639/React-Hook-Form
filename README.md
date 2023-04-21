@@ -3,7 +3,7 @@
 
 ![127 0 0 1_5173_](https://user-images.githubusercontent.com/95972251/233539308-098afe6b-346f-4d28-8e1b-57eecbc51acf.png)
 
-:sparkles: react-hook-form 연습 페이지입니다. :sparkles:
+:sparkles: 🛠️ react-hook-form 연습 페이지입니다. :sparkles:
 ## :tada: React 생성
 - React 생성
 ```bash
@@ -19,17 +19,18 @@ npm create vite@latest
 yarn create vite
 ```
 - 터미널에서 실행 후 프로젝트 이름 만든 후 React 선택, Typescirpt 선택하면 생성 완료.
-## 🛸 react-hook-form, styled-components 설치
-- react-hook-form 설치 명령어
+## 🛸 react-hook-form, styled-components, yup, @hookform/resolvers 설치
+- `react-hook-form`, `styled-components`, `yup`, `@hookform/resolvers`을 다음 명령어로 설치한다.
 ```bash
-npm install react-hook-form, styled-components
+npm install react-hook-form styled-components yup @hookform/resolvers
 # or
-yarn add react-hook-form, styled-components
+yarn add react-hook-form styled-components yup, @hookform/resolvers
 ```
 
 ## ✒️ App.tsx, Style.ts 수정 및 작성
 ### :zap: App.tsx
-- react-hook-form을 import하고, Style.ts에서 styled-components 작성 자료 가져오기
+- `react-hook-form`을 `import`하여, `Style.ts`에 작성되어있는 `styled-components` 작성 자료 가져온다.
+- `yup` 라이브러리를 이용하여 `schema`를 제작하고 `useForm`에 데이터를 대입한다.
 ```js
 import reactLogo from './assets/react.svg'
 import FormImg from './assets/form.svg'
@@ -108,7 +109,7 @@ export default function App(): JSX.Element {
 }
 ```
 ### :zap: Style.ts
-- styled-components import한 뒤 export 하여 App.tsx에서 사용
+- `styled-components`를 `import`한 뒤 각각의 스타일을 `export` 한 다음 `App.tsx`에서 사용하여 스타일링한다.
 ```js
 import styled from 'styled-components';
 
