@@ -9,10 +9,19 @@
   height: 6em;
   padding: 1.5em;
   will-change: filter;
+  transition: .5s;
 }
+
+.ImgBox a:first-child .logo {
+  width: 7rem;
+  height: 7rem;
+  margin-bottom: -0.75rem;
+}
+
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #ec5990);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -21,6 +30,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -33,7 +43,7 @@
 }
 
 .card {
-  padding: 2em;
+  padding: 1em 2em 0;
 }
 
 .read-the-docs {
